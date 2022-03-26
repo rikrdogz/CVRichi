@@ -2,12 +2,12 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 
 Vue.use(VueRouter);
-import { Home } from './components/HelloWorld.vue';
+import  MainBody  from './components/MainBody.vue';
 
 const routes = [
     {
         path: '/',
-        component: Home,
+        component: MainBody,
         name:'Home'
     }
 ]
