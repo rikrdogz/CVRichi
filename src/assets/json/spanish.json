@@ -1,0 +1,13 @@
+[
+    {
+        "titleprofile": "Desarrollador FullStack",
+        "company":"Secretaria de Hacienda",
+        "time":"2019 - Actual",
+        "resume":[
+            "Creación de SUIT Integral para Recursos Humanos.",
+            "Implementación de Módulos para creación de órganos Administrativos, Dictámenes, Actualización de Claves Programáticas, Cambios de Zonas, Manejo de Sectores y Reportes",
+            "Basados en Componentes"
+        ],
+        "listTechs": ["js", "vue", "axios", "datatable", "c#"]
+    }
+]
