@@ -2,12 +2,62 @@
     {
         "titleprofile": "Desarrollador FullStack",
         "company":"Secretaria de Hacienda",
-        "time":"2019 - Actual",
+        "time":"2020 - Actual",
         "resume":[
             "Creación de SUIT Integral para Recursos Humanos.",
             "Implementación de Módulos para creación de órganos Administrativos, Dictámenes, Actualización de Claves Programáticas, Cambios de Zonas, Manejo de Sectores y Reportes",
-            "Basados en Componentes"
+            "Creación y consumo de servicios API para modulos nuevos, Apoyo en proceso de cálculo de nomina",
+            "Migración de Datos a la nueva estructura, Optimización de procesos en consultas y ejecución de store procedure",
+            "Modulo de captura de Créditos con layout"
         ],
-        "listTechs": ["js", "vue", "axios", "datatable", "c#"]
+        "listTechs": ["JS", "vue", "Axios", "Vuex", "Vuesession", "Datatable", "C#", ".Net Core",".Net Framework", "Bootstrap", "Git", "SQL Server", "Dapper"]
+    },
+    {
+        "titleprofile": "Desarrollador FullStack",
+        "company":"FREELANCER",
+        "time":"2022 - En Desarrollo",
+        "resume":[
+            "Sistema de Créditos",
+            "Creación de API, CI/CD en Azure, Virtualización de Distribución Linux para pruebas, Creación de Aplicación para Android",
+            "Uso de Retrofit para consumo de API, Impresión de Ticket por medio de Bluethooth, Uso de RecyclerView para renderizado de lista de elementos"
+            
+        ],
+        "listTechs": ["Azure", "Azure Repos","JS", "Angular", "Bootstrap", "Entity Framework", "C#", ".Net Core", "SQL Server", "Humanizer", "Android", "Kotlin", "Retrofit", "RecyclerView" ]
+    },
+    {
+        "titleprofile": "Desarrollador Frontend",
+        "company":"FREELANCER",
+        "time":"2022 - En desarrollo",
+        "resume":[
+            "Prototipo de Sistema de Viaje para vuelos y autobuses, Creación de Componentes,Diseño Responsivo, Creación de Modulos"
+        ],
+        "listTechs": ["JS", "Angular", "Bootstrap", "Git"]
+    },
+    {
+        "titleprofile": "Programador MID",
+        "company":"Crea Consultoria",
+        "time":"2018 - 2020",
+        "resume":[
+            "Adecuaciones de modulos existentes del sistema",
+            "Creación de nuevos Módulos para captura de flotilla, Preparación de archivos para deploy",
+            "Creación, Modificacion de SP y Funciones para SQL Server, Creación de Script para ejecución de datos",
+            "Modificación de plantillas para Facturación",
+            "Desarrollo de nuevas implementaciones de funciones en módulo de facturación (Complemento de Pago, Cancelaciones)",
+            "Apoyo para validación / revisión de Casos de Uso"
+        ],
+        "listTechs": ["C#", "VB", "Forms", "SQL Server"]
+    },
+    {
+        "titleprofile": "Programador Desktop",
+        "company":"Taller tiburon",
+        "time":"2017 -2018",
+        "resume":[
+            "Captura de datos de unidad de flotillas datos como numero de camión, placas, serie",
+            "Creación de módulo de servicios para unidades capturadas",
+            "Modulo de captura de factura de proveedores, Modulo de generación de cotización de servicios",
+            "Servicio de envio de correo con archivos de cotización, Modulo de productos con servicio y mano de obra"
+         
+        ],
+        "listTechs": [ "VB", "Forms", "MYSQL"]
     }
 ]

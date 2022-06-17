@@ -1,3 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media print {
+
+    #app {
+        margin-top: 0;
+        font-size: 12px;
+    }
+
+    .word {
+        display: inline-block;
+        margin-top: 1px;
+        padding: 1px;
+    }
+    .company, .time, .message {
+        margin-top: 0;
+    }
+    .tech {
+        margin: 1px;
+    }
+
+    .work {
+        padding: 1px;
+        margin-bottom: 4px;
+    }
+    .name-employe {
+        font-size: 28px;
+
+    }
+    .degree {
+        font-size: 20px;
+        line-height: 0.6rem;
+    }
+
+    .email, .phone-number {
+        font-size: 20px;
+    }
+
+    .icon-title {
+        font-size: 16px;
+        padding: 2px;
+        padding-right: 1px;
+    }
+
+    
+}
+
+@page {
+    @bottom-left {
+         content: counter(page) "/" counter(pages);
+     }
+  }
