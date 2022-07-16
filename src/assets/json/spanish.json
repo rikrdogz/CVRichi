@@ -1,63 +1,60 @@
 [
     {
-        "titleprofile": "Desarrollador FullStack",
-        "company":"Secretaria de Hacienda",
+        "titleprofile": "Desarrollador Full Stack",
+        "company":"Secretaría de Hacienda",
         "time":"2020 - Actual",
+        "projectName":"SUIT Integral para Recursos Humanos",
         "resume":[
-            "Creación de SUIT Integral para Recursos Humanos.",
-            "Implementación de Módulos para creación de órganos Administrativos, Dictámenes, Actualización de Claves Programáticas, Cambios de Zonas, Manejo de Sectores y Reportes",
-            "Creación y consumo de servicios API para modulos nuevos, Apoyo en proceso de cálculo de nomina",
-            "Migración de Datos a la nueva estructura, Optimización de procesos en consultas y ejecución de store procedure",
-            "Modulo de captura de Créditos con layout"
+            "Generar Servicios API, con conexión a SQL Server, y uso de Micro ORM Dapper, Uso de iTextSharp para generar Reportes, Migración de Datos a la nueva estructura, Optimización de procesos en consultas y ejecución de store procedure",
+            "Uso de la función OPENJSON, para lectura masiva de registros y realizar proceso de actualización y guardado",
+            "Desarrollo de la interfaz grafica con uso de librerías como Bootstrap, Vue, JQuery y Axios"
         ],
-        "listTechs": ["JS", "vue", "Axios", "Vuex", "Vuesession", "Datatable", "C#", ".Net Core",".Net Framework", "Bootstrap", "Git", "SQL Server", "Dapper"]
+        "listTechs": ["JS", "vue", "Axios", "Vuex", "Vuesession", "Datatable", "C#", ".Net Core",".Net Framework", "Bootstrap", "Git", "SQL Server", "Dapper", "iTextSharp"]
     },
     {
-        "titleprofile": "Desarrollador FullStack",
+        "titleprofile": "Desarrollador Full Stack",
         "company":"FREELANCER",
         "time":"2022 - En Desarrollo",
+        "projectName" : "Sistema de Créditos",
         "resume":[
-            "Sistema de Créditos",
-            "Creación de API, CI/CD en Azure, Virtualización de Distribución Linux para pruebas, Creación de Aplicación para Android",
-            "Uso de Retrofit para consumo de API, Impresión de Ticket por medio de Bluethooth, Uso de RecyclerView para renderizado de lista de elementos"
-            
+            "Creación de API, CI/CD en Azure, Virtualización de Distribución Linux para pruebas, Creación de Aplicación para Android con Kotlin, Uso de Retrofit para consumo de API, Impresión de Ticket por medio de Bluethooth, Uso de RecyclerView para renderizado de lista de elementos"
         ],
         "listTechs": ["Azure", "Azure Repos","JS", "Angular", "Bootstrap", "Entity Framework", "C#", ".Net Core", "SQL Server", "Humanizer", "Android", "Kotlin", "Retrofit", "RecyclerView" ]
     },
     {
         "titleprofile": "Desarrollador Frontend",
         "company":"FREELANCER",
-        "time":"2022 - En desarrollo",
+        "time":"2022 - En Desarrollo",
+        "projectName":"Prototipo de Sistema de Viaje para vuelos y autobuses",
         "resume":[
-            "Prototipo de Sistema de Viaje para vuelos y autobuses, Creación de Componentes,Diseño Responsivo, Creación de Modulos"
+            "Creación de Componentes, Módulos y Servicios de Fronted, uso de librerias como Bootstrap, primeng componentes, Diseño Responsivo"
         ],
         "listTechs": ["JS", "Angular", "Bootstrap", "Git"]
     },
     {
         "titleprofile": "Programador MID",
-        "company":"Crea Consultoria",
+        "company":"Crea Consultoría",
         "time":"2018 - 2020",
+        "projectName":"Sistema ERP",
         "resume":[
-            "Adecuaciones de modulos existentes del sistema",
-            "Creación de nuevos Módulos para captura de flotilla, Preparación de archivos para deploy",
-            "Creación, Modificacion de SP y Funciones para SQL Server, Creación de Script para ejecución de datos",
-            "Modificación de plantillas para Facturación",
-            "Desarrollo de nuevas implementaciones de funciones en módulo de facturación (Complemento de Pago, Cancelaciones)",
-            "Apoyo para validación / revisión de Casos de Uso"
+            "Adecuaciones de módulos existentes del sistema, Creación de nuevos Módulos para captura de flotilla, Preparación de archivos para Deploy.",
+            "Creación, Modificación de SP y Funciones para SQL Server, Creación de Script para ejecución de datos, Modificación de plantillas para Facturación.",
+            "Desarrollo de nuevas implementaciones de funciones en módulo de facturación (Complemento de Pago, Cancelaciones), Apoyo para validación / revisión de Casos de Uso."
         ],
         "listTechs": ["C#", "VB", "Forms", "SQL Server"]
     },
     {
         "titleprofile": "Programador Desktop",
-        "company":"Taller tiburon",
+        "company":"Taller tiburón",
         "time":"2017 -2018",
+        "projectName":"Sistema Administrativo Tiburón",
         "resume":[
-            "Captura de datos de unidad de flotillas datos como numero de camión, placas, serie",
-            "Creación de módulo de servicios para unidades capturadas",
-            "Modulo de captura de factura de proveedores, Modulo de generación de cotización de servicios",
-            "Servicio de envio de correo con archivos de cotización, Modulo de productos con servicio y mano de obra"
+            "Creación de proyecto Inicial de forma individual, Análisis del problema, Ejecución y Adecuación de Módulos con Actualizaciones constantes del Software.",
+            "Capacitación para uso del sistema, Adaptación de uso de la base de datos local para posteriormente ajustarlo en uso en línea.",
+            "Creación de modulo de captura de factura de proveedores, modulo de generación de cotización de servicios con Spire para archivo Excel.",
+            "Servicio de envió de correo con archivos de cotización, Modulo de productos con servicio y mano de obra."
          
         ],
-        "listTechs": [ "VB", "Forms", "MYSQL"]
+        "listTechs": [ "VB", "Forms", "MYSQL", "Spire"]
     }
 ]

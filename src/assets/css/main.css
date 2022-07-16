@@ -26,16 +26,17 @@
         margin-bottom: 4px;
     }
     .name-employe {
-        font-size: 28px;
+        font-size: 24px;
 
     }
     .degree {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 0.6rem;
+        padding-top: 3px;
     }
 
     .email, .phone-number {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .icon-title {

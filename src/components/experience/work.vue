@@ -1,5 +1,5 @@
 <template>
-    <div class="p-4 shadow mt-4 work">
+    <div class="p-4 shadow mt-2 work">
         
         <div>
             <strong class="text-2xl">{{titleprofile}}</strong>
@@ -40,7 +40,7 @@ export default {
     },
     props:{
         titleprofile : { type: String, default:''},
-        resume:{type:String, default:''},
+        resume:{type:Array, default:new Array},
         listTechs:{type:Array, default:new Array},
         company:{type:String, default:''},
         time:{type:String, default:''}
