@@ -2,11 +2,11 @@
     <div class="p-4 shadow mt-2 work">
         
         <div>
-            <strong class="text-2xl">{{titleprofile}}</strong>
+            <strong class="text-2xl print:text-xl">{{titleprofile}}</strong>
         </div>
 
         <div v-if="listTechs.length > 0"  class="m-2 ml-0 tech">
-            <strong v-for="(word, index) in listTechs" :key="index" class="p-1 border text-blue-700 ml-1 word">{{word}}</strong>
+            <strong v-for="(word, index) in listTechs" :key="index" class="p-1 border-b border-gray-300 text-blue-700 ml-3 word">{{word}}</strong>
         </div>
         
         <div class="text-slate-700 mt-1 company">

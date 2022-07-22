@@ -9,8 +9,9 @@ import './assets/css/main.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from '@fortawesome/vue-fontawesome';
+import { faTwitter, faFacebook, faStackOverflow, faGithub, faGitlab } from '@fortawesome/free-brands-svg-icons'
 
-library.add(fas);
+library.add(fas,  faTwitter, faFacebook, faStackOverflow, faGithub, faGitlab);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.component('font-awesome-layers', FontAwesomeLayers);

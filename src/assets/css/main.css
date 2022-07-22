@@ -35,8 +35,8 @@
         padding-top: 3px;
     }
 
-    .email, .phone-number {
-        font-size: 16px;
+    .email, .phone-number, .github {
+        font-size: 14px !important;
     }
 
     .icon-title {
