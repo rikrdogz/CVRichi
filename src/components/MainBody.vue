@@ -1,20 +1,35 @@
 <template>
-  <div>
+  <div class="grid grid-cols-3">
 
-    <CVTitle></CVTitle>
+    <section class="w-full bg-gray-200 print:bg-gray-200">
+      DATOS PERSONALES
+      <CVTitle></CVTitle>
+    </section>
 
-    <div v-for="(work, index) in ListWork" :key="index">
+    <div class="col-span-2 print:bg-green-300 p-4">
+      CONOCIMIENTOS
 
-      <exp-work
-        :titleprofile="work.titleprofile"
-        :company="work.company"
-        :time="work.time"
-        :resume="work.resume"
-		:listTechs="work.listTechs"
-      ></exp-work>
+      <div v-for="(work, index) in ListWork" :key="index">
 
+        <exp-work
+          :titleprofile="work.titleprofile"
+          :company="work.company"
+          :time="work.time"
+          :resume="work.resume"
+      :listTechs="work.listTechs"
+        ></exp-work>
+
+
+      </div>
 
     </div>
+
+    <!--
+    
+
+    
+
+    -->
   </div>
 </template>
 
@@ -26,7 +41,7 @@ import Spanish from "../assets/json/spanish.json";
 
 export default {
   name: "HelloWorld",
-  components: { CVTitle, ExpWork },
+  components: { CVTitle,  ExpWork },
   data() {
     return {
 		ListWork:[],
